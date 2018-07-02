@@ -7,10 +7,12 @@
     "test": "test"
   },
   "scripts": {
+    "build": "pulp build",
+    "build-examples": "pulp browserify -I examples --to html/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "johnny-five": "^0.15.0"
   }
